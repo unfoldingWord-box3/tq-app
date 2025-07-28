@@ -1,0 +1,104 @@
+{
+  "summary": {
+    "totalChapters": 4,
+    "totalVerses": 10,
+    "totalParagraphs": 4,
+    "processingDate": "2025-07-25",
+    "version": "1.0"
+  },
+  "structure": {
+    "hasMetadata": true,
+    "hasCrossReferences": true,
+    "hasCleanText": true,
+    "hasOptimalStructure": true
+  },
+  "chapterAnalysis": [
+    {
+      "chapter": 1,
+      "verseCount": 3,
+      "paragraphCount": 1,
+      "paragraphs": [
+        {
+          "id": "chapter-1-paragraph-1",
+          "style": "p",
+          "type": "paragraph",
+          "indentLevel": 0,
+          "verseRange": "1-3",
+          "verseCount": 3,
+          "verseNumbers": [
+            1,
+            2,
+            3
+          ],
+          "preview": "And the word of Yahweh to Jonah son of Amittai, saying, \" Get up, go to Nineveh, the great city, and call out against it...",
+          "isPoetry": false
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verseCount": 2,
+      "paragraphCount": 1,
+      "paragraphs": [
+        {
+          "id": "chapter-2-paragraph-1",
+          "style": "p",
+          "type": "paragraph",
+          "indentLevel": 0,
+          "verseRange": "1-2",
+          "verseCount": 2,
+          "verseNumbers": [
+            1,
+            2
+          ],
+          "preview": "And Jonah prayed to Yahweh his God from the stomach of the fish, and he said, \" I called from my distress to Yahweh, and...",
+          "isPoetry": false
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verseCount": 2,
+      "paragraphCount": 1,
+      "paragraphs": [
+        {
+          "id": "chapter-3-paragraph-1",
+          "style": "p",
+          "type": "paragraph",
+          "indentLevel": 0,
+          "verseRange": "1-2",
+          "verseCount": 2,
+          "verseNumbers": [
+            1,
+            2
+          ],
+          "preview": "And the word of Yahweh to Jonah a second time, saying, \" Get up, go to Nineveh, the great city, and call out to it the m...",
+          "isPoetry": false
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verseCount": 3,
+      "paragraphCount": 1,
+      "paragraphs": [
+        {
+          "id": "chapter-4-paragraph-1",
+          "style": "p",
+          "type": "paragraph",
+          "indentLevel": 0,
+          "verseRange": "1-11",
+          "verseCount": 3,
+          "verseNumbers": [
+            1,
+            10,
+            11
+          ],
+          "preview": "But it was to Jonah greatly displeasing, and he became angry to him. And Yahweh said, \" You had pity on the plant, for w...",
+          "isPoetry": false
+        }
+      ]
+    }
+  ],
+  "sectionAnalysis": []
+}

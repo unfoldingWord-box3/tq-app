@@ -12,6 +12,7 @@ import { OpaqueColorValue, type StyleProp, type TextStyle } from 'react-native';
 const MAPPING = {
   'house.fill': 'home',
   'paperplane.fill': 'send',
+  'chevron.left': 'chevron-left',
   'chevron.left.forwardslash.chevron.right': 'code',
   'chevron.right': 'chevron-right',
   'person.2.fill': 'group',
@@ -26,6 +27,12 @@ const MAPPING = {
   'arrow.down.circle.fill': 'get-app',
   'questionmark.circle.fill': 'help',
   'info.circle.fill': 'info',
+  'chevron.up': 'keyboard-arrow-up',
+  'chevron.down': 'keyboard-arrow-down',
+  'fullscreen': 'fullscreen',
+  'fullscreen.exit': 'fullscreen-exit',
+  'expand.less': 'expand-less',
+  'expand.more': 'expand-more',
 } as const;
 
 type IconSymbolName = keyof typeof MAPPING;

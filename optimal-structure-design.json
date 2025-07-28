@@ -1,0 +1,146 @@
+{
+  "book": "Jonah",
+  "bookCode": "JON",
+  "metadata": {
+    "totalChapters": 4,
+    "totalVerses": 48,
+    "totalParagraphs": 12,
+    "processingDate": "2024-01-25",
+    "version": "1.0"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "verseCount": 17,
+      "paragraphCount": 3,
+      "verses": [
+        {
+          "number": 1,
+          "text": "The word of Yahweh came to Jonah son of Amittai, saying,",
+          "reference": "JON 1:1",
+          "paragraphId": "chapter-1-paragraph-1",
+          "sectionId": "section-1"
+        },
+        {
+          "number": 2, 
+          "text": "\"Get up, go to Nineveh, the great city, and call out against it, because their evil has risen up before my face.\"",
+          "reference": "JON 1:2",
+          "paragraphId": "chapter-1-paragraph-1",
+          "sectionId": "section-1"
+        },
+        {
+          "number": 3,
+          "text": "But Jonah got up to run away to Tarshish from before the face of Yahweh. And he went down to Joppa and found a ship going to Tarshish. So he paid the fare and went down into it to go with them to Tarshish, away from before the face of Yahweh.",
+          "reference": "JON 1:3", 
+          "paragraphId": "chapter-1-paragraph-1",
+          "sectionId": "section-1"
+        },
+        {
+          "number": 4,
+          "text": "But Yahweh threw a great wind upon the sea, and there was a great storm on the sea, and the ship was about to be broken up.",
+          "reference": "JON 1:4",
+          "paragraphId": "chapter-1-paragraph-2",
+          "sectionId": "section-2"
+        }
+      ],
+      "paragraphs": [
+        {
+          "id": "chapter-1-paragraph-1",
+          "type": "paragraph",
+          "style": "p",
+          "indentLevel": 0,
+          "startVerse": 1,
+          "endVerse": 3,
+          "verseCount": 3,
+          "verseNumbers": [1, 2, 3],
+          "combinedText": "The word of Yahweh came to Jonah son of Amittai, saying, \"Get up, go to Nineveh, the great city, and call out against it, because their evil has risen up before my face.\" But Jonah got up to run away to Tarshish...",
+          "verses": [
+            {
+              "number": 1,
+              "text": "The word of Yahweh came to Jonah son of Amittai, saying,",
+              "reference": "JON 1:1"
+            },
+            {
+              "number": 2,
+              "text": "\"Get up, go to Nineveh, the great city, and call out against it, because their evil has risen up before my face.\"",
+              "reference": "JON 1:2"
+            },
+            {
+              "number": 3,
+              "text": "But Jonah got up to run away to Tarshish from before the face of Yahweh. And he went down to Joppa and found a ship going to Tarshish. So he paid the fare and went down into it to go with them to Tarshish, away from before the face of Yahweh.",
+              "reference": "JON 1:3"
+            }
+          ]
+        },
+        {
+          "id": "chapter-1-paragraph-2", 
+          "type": "paragraph",
+          "style": "p",
+          "indentLevel": 0,
+          "startVerse": 4,
+          "endVerse": 8,
+          "verseCount": 5,
+          "verseNumbers": [4, 5, 6, 7, 8],
+          "combinedText": "But Yahweh threw a great wind upon the sea...",
+          "verses": []
+        },
+        {
+          "id": "chapter-1-paragraph-3",
+          "type": "quote", 
+          "style": "q1",
+          "indentLevel": 1,
+          "startVerse": 9,
+          "endVerse": 12,
+          "verseCount": 4,
+          "verseNumbers": [9, 10, 11, 12],
+          "combinedText": "Poetry or quoted speech here...",
+          "verses": []
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "Jonah Flees from God",
+      "startReference": "JON 1:1",
+      "endReference": "JON 1:3", 
+      "startChapter": 1,
+      "startVerse": 1,
+      "endChapter": 1,
+      "endVerse": 3,
+      "verseCount": 3,
+      "paragraphIds": ["chapter-1-paragraph-1"]
+    },
+    {
+      "id": "section-2",
+      "title": "The Great Storm",
+      "startReference": "JON 1:4",
+      "endReference": "JON 1:8",
+      "startChapter": 1, 
+      "startVerse": 4,
+      "endChapter": 1,
+      "endVerse": 8,
+      "verseCount": 5,
+      "paragraphIds": ["chapter-1-paragraph-2"]
+    }
+  ],
+  "renderingOptions": {
+    "verseByVerse": {
+      "description": "Access individual verses with paragraph context",
+      "queryPattern": "chapters[x].verses[y]"
+    },
+    "paragraphAware": {
+      "description": "Render verses grouped by paragraphs with proper styling",
+      "queryPattern": "chapters[x].paragraphs[y].verses"
+    },
+    "sectionAware": {
+      "description": "Navigate by translation sections",
+      "queryPattern": "sections[x] -> find verses by startVerse/endVerse"
+    },
+    "rangeQuery": {
+      "description": "Get verses by reference range (e.g., JON 1:3-5)",
+      "queryPattern": "filter verses by chapter/verse numbers"
+    }
+  }
+} 
